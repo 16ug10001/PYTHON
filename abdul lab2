@@ -1,0 +1,53 @@
+Python 3.7.3 (default, Apr  3 2019, 05:39:12) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> dict=['name':'abdul','age':'21']
+SyntaxError: invalid syntax
+>>> dict={'name':'abdul','age':'21'}
+>>> dict
+{'name': 'abdul', 'age': '21'}
+>>> print(dict['name'])
+abdul
+>>> print(dict['age'])
+21
+>>> dict.update({'age':22})
+>>> print(dict['age'])
+22
+\
+>>> dict.pop('age')
+22
+>>> dict.clear()
+>>> dict
+{}
+>>> dict={'name':'raqib','age':'25'}
+>>> dict
+{'name': 'raqib', 'age': '25'}
+>>> mydict={}
+>>> dict.copy(mydict)
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    dict.copy(mydict)
+TypeError: copy() takes no arguments (1 given)
+>>> mydict.copy(dict)
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    mydict.copy(dict)
+TypeError: copy() takes no arguments (1 given)
+>>> mydict.copy(dict)
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    mydict.copy(dict)
+TypeError: copy() takes no arguments (1 given)
+>>> mydict=dict.copy()
+>>> mydict
+{'name': 'raqib', 'age': '25'}
+>>> dict.values()
+dict_values(['raqib', '25'])
+>>> dict.keys()
+dict_keys(['name', 'age'])
+>>> dict.get()
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    dict.get()
+TypeError: get expected at least 1 arguments, got 0
+>>> 
