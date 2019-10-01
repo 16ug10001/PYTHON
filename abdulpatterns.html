@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0901)https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=1bb4ff478e&attid=0.1&permmsgid=msg-f:1646167293756889001&th=16d85c6e913ed7a9&view=att&disp=inline&realattid=f_k13fcww22&saddbat=ANGjdJ9_vysvEGGvW9iBISkZmR4_7tk1PDcOh1V0aZx74NzTchOhcW4ofOhz74CqsjmMQUeK_l7iZY9XiyddWDBBdBaw4VE6NTaU7lFPpcjHmCVMEoN3_FtUiTAIwuR8jyrTi7e_iMRZQKrUxrS_hU1EoRy5db9_cjKFCl-kpPTMGQVyoSW2Tx9XKeY6rDVk2FZXp8ujtPAeqrYDK3_shHZHCROe4QvrCIe0nISPVyTt-VGQZmECxlkMJGdQ-xYZyhxHzhP2NKpKc4lkRO2Ai1gf2agdS4vDPUKTVE2u-NMh4Go0XJ4Pyh7slKBuTQTLGvK89LtsakRBK8HOvwEb6ci_N3kBE6iv3ad-kyI1ST9LBCfktzIU7IUWofTj9Ge5zYpZS6OrQw6qrwD9mPiTwCKIqSMDsoS0oym-S_h-SEnDtH_wHX8CXx2pLfcJsmWaxQS17T3BysQhHVZKH-tylCYsw6Df6wm2-p83HkiDGpVCcy2Sv_Go_EbOgN0Ed49ki1jV83eqyeVTT59smpqg7rED_o0cCjnVVO3sn_Bc8F3tPVZOFRCoVkJ2fAmU778u4xcFdgALSlcC8aUFwhYdLjc0MkyyqGTjb56PwBocgfKoULeoi1et6Si7gq1pltSNNq6gyuOA0cN6_2Ckkw1GgV9HK8Vb9bpiEx9enL7ey4rZQKwoi10FFdKur6eN7j8 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+<div>
+  <div>
+    <div>
+
+<div>
+<div>
+<div>In&nbsp;[1]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>1</span><span>#square pattern</span>
+
+<span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>4</span><span>):</span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>4</span><span>):</span>
+        <span>print</span><span>(</span><span>'*'</span><span>,</span> <span>end</span> <span>=</span> <span>'  '</span><span>)</span>
+    <span>print</span><span>()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>*  *  *  *  
+*  *  *  *  
+*  *  *  *  
+*  *  *  *  
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[2]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>2</span><span>#hollow rectangle </span>
+<span>def</span> <span>print_rectangle</span><span>(</span><span>n</span><span>,</span> <span>m</span><span>)</span> <span>:</span> 
+      
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>m</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>i</span> <span>==</span> <span>1</span> <span>or</span> <span>i</span> <span>==</span> <span>n</span> <span>or</span>
+                <span>j</span> <span>==</span> <span>1</span> <span>or</span> <span>j</span> <span>==</span> <span>m</span><span>)</span> <span>:</span> 
+                <span>print</span><span>(</span><span>"*"</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span>             
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span>             
+          
+        <span>print</span><span>()</span> 
+  
+  
+<span># Driver program for above function </span>
+<span>rows</span> <span>=</span> <span>6</span>
+<span>columns</span> <span>=</span> <span>20</span>
+<span>print_rectangle</span><span>(</span><span>rows</span><span>,</span> <span>columns</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>********************
+*                  *
+*                  *
+*                  *
+*                  *
+********************
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[3]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>3</span><span>#hollow square </span>
+<span>def</span> <span>print_square</span><span>(</span><span>n</span><span>)</span> <span>:</span> 
+      
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>i</span> <span>==</span> <span>1</span> <span>or</span> <span>i</span> <span>==</span> <span>n</span> <span>or</span> 
+                <span>j</span> <span>==</span> <span>1</span> <span>or</span> <span>j</span> <span>==</span> <span>n</span><span>)</span> <span>:</span>             
+                <span>print</span><span>(</span><span>"*"</span><span>,</span> <span>end</span> <span>=</span> <span>""</span><span>)</span>             
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span> <span>end</span> <span>=</span> <span>""</span><span>)</span>             
+          
+        <span>print</span><span>()</span> 
+          
+          
+   
+<span># Driver code for above function </span>
+<span>rows</span> <span>=</span> <span>8</span>
+<span>print_square</span><span>(</span><span>rows</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>********
+*      *
+*      *
+*      *
+*      *
+*      *
+*      *
+********
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[4]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>4</span><span>#hollow square with  </span>
+<span># primary and secondary diagonal </span>
+<span>def</span> <span>print_squaredi</span><span>(</span><span>n</span><span>)</span> <span>:</span> 
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span> <span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>i</span><span>==</span><span>1</span> <span>or</span> <span>i</span><span>==</span><span>n</span> <span>or</span> <span>j</span><span>==</span><span>1</span> <span>or</span> <span>j</span><span>==</span><span>n</span>  
+                <span>or</span> <span>i</span><span>==</span><span>j</span> <span>or</span> <span>j</span><span>==</span><span>(</span><span>n</span> <span>-</span> <span>i</span> <span>+</span> <span>1</span><span>))</span> <span>:</span> 
+                <span>print</span><span>(</span><span>"*"</span><span>,</span> <span>end</span> <span>=</span> <span>""</span><span>)</span>             
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span> <span>end</span> <span>=</span> <span>""</span><span>)</span>             
+          
+        <span>print</span><span>()</span> 
+          
+          
+<span># Driver code for above function </span>
+<span>rows</span> <span>=</span> <span>8</span>
+<span>print_squaredi</span><span>(</span><span>rows</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>********
+**    **
+* *  * *
+*  **  *
+*  **  *
+* *  * *
+**    **
+********
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[5]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>5</span><span>#Right angle triangle</span>
+<span>def</span> <span>pypart</span><span>(</span><span>n</span><span>):</span> 
+      
+    <span># outer loop to handle number of rows </span>
+    <span># n in this case </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>n</span><span>):</span> 
+      
+        <span># inner loop to handle number of columns </span>
+        <span># values changing acc. to outer loop </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>i</span><span>+</span><span>1</span><span>):</span> 
+          
+            <span># printing stars </span>
+            <span>print</span><span>(</span><span>"* "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+       
+        <span># ending line after each row </span>
+        <span>print</span><span>(</span><span>"</span><span>\r</span><span>"</span><span>)</span> 
+  
+<span># Driver Code </span>
+<span>n</span> <span>=</span> <span>5</span>
+<span>pypart</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[6]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>6</span><span>#after 180 rotation</span>
+<span>def</span> <span>pypart2</span><span>(</span><span>n</span><span>):</span> 
+      
+    <span># number of spaces </span>
+    <span>k</span> <span>=</span> <span>2</span><span>*</span><span>n</span> <span>-</span> <span>2</span>
+  
+    <span># outer loop to handle number of rows </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>n</span><span>):</span> 
+      
+        <span># inner loop to handle number spaces </span>
+        <span># values changing acc. to requirement </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>k</span><span>):</span> 
+            <span>print</span><span>(</span><span>end</span><span>=</span><span>" "</span><span>)</span> 
+      
+        <span># decrementing k after each loop </span>
+        <span>k</span> <span>=</span> <span>k</span> <span>-</span> <span>2</span>
+      
+        <span># inner loop to handle number of columns </span>
+        <span># values changing acc. to outer loop </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>i</span><span>+</span><span>1</span><span>):</span> 
+          
+            <span># printing stars </span>
+            <span>print</span><span>(</span><span>"* "</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span> 
+      
+        <span># ending line after each row </span>
+        <span>print</span><span>(</span><span>"</span><span>\r</span><span>"</span><span>)</span> 
+  
+<span># Driver Code </span>
+<span>n</span> <span>=</span> <span>5</span>
+<span>pypart2</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[7]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>7</span><span>#printing triangle</span>
+<span>def</span> <span>triangle</span><span>(</span><span>n</span><span>):</span> 
+      
+    <span># number of spaces </span>
+    <span>k</span> <span>=</span> <span>2</span><span>*</span><span>n</span> <span>-</span> <span>2</span>
+  
+    <span># outer loop to handle number of rows </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>n</span><span>):</span> 
+      
+        <span># inner loop to handle number spaces </span>
+        <span># values changing acc. to requirement </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>k</span><span>):</span> 
+            <span>print</span><span>(</span><span>end</span><span>=</span><span>" "</span><span>)</span> 
+      
+        <span># decrementing k after each loop </span>
+        <span>k</span> <span>=</span> <span>k</span> <span>-</span> <span>1</span>
+      
+        <span># inner loop to handle number of columns </span>
+        <span># values changing acc. to outer loop </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>i</span><span>+</span><span>1</span><span>):</span> 
+          
+            <span># printing stars </span>
+            <span>print</span><span>(</span><span>"* "</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span> 
+      
+        <span># ending line after each row </span>
+        <span>print</span><span>(</span><span>"</span><span>\r</span><span>"</span><span>)</span> 
+  
+<span># Driver Code </span>
+<span>n</span> <span>=</span> <span>5</span>
+<span>triangle</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>        * 
+       * * 
+      * * * 
+     * * * * 
+    * * * * * 
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[10]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>8</span><span>#print a hollow pyramid pattern </span>
+  
+<span>def</span> <span>printPattern</span><span>(</span> <span>n</span><span>)</span> <span>:</span> 
+    <span>k</span> <span>=</span> <span>0</span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span><span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> <span>#row 6 </span>
+      
+        <span># Print spaces </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>i</span><span>,</span><span>n</span><span>)</span> <span>:</span> 
+            <span>print</span><span>(</span><span>' '</span><span>,</span> <span>end</span><span>=</span><span>''</span><span>)</span> 
+          
+        <span># Print # </span>
+        <span>while</span> <span>(</span><span>k</span> <span>!=</span> <span>(</span><span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>1</span><span>))</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>k</span> <span>==</span> <span>0</span> <span>or</span> <span>k</span> <span>==</span> <span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>2</span><span>)</span> <span>:</span> 
+                <span>print</span><span>(</span><span>'*'</span><span>,</span> <span>end</span><span>=</span><span>''</span><span>)</span> 
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>' '</span><span>,</span> <span>end</span> <span>=</span><span>''</span><span>)</span> 
+            <span>k</span> <span>=</span> <span>k</span> <span>+</span> <span>1</span>
+        <span>k</span> <span>=</span> <span>0</span><span>;</span> 
+        <span>print</span> <span>(</span><span>""</span><span>)</span> <span># print next row </span>
+          
+    <span># print last row </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span> <span>2</span> <span>*</span> <span>n</span> <span>-</span><span>1</span><span>)</span> <span>:</span> 
+        <span>print</span> <span>(</span><span>'*'</span><span>,</span> <span>end</span> <span>=</span> <span>''</span><span>)</span> 
+  
+<span># Driver code  </span>
+<span>n</span> <span>=</span> <span>6</span>
+<span>printPattern</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+***********</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[11]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>#print a hollow inverted pyramid pattern </span>
+  
+<span>def</span> <span>printPattern</span><span>(</span><span>n</span><span>)</span> <span>:</span> 
+      
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span><span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+          
+        <span># Print spaces </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span><span>i</span><span>)</span> <span>:</span> 
+            <span>print</span> <span>(</span><span>" "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+              
+        <span># Print hollow inverted pyramid </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,(</span><span>n</span> <span>*</span> <span>2</span> <span>-</span> <span>(</span><span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>1</span><span>))</span>  
+                                       <span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>i</span> <span>==</span> <span>1</span> <span>or</span> <span>j</span> <span>==</span> <span>1</span> <span>or</span> 
+               <span>j</span> <span>==</span> <span>(</span><span>n</span> <span>*</span> <span>2</span> <span>-</span> <span>(</span><span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>1</span><span>)))</span> <span>:</span> 
+                <span>print</span> <span>(</span><span>"*"</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span>  
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span> <span>end</span><span>=</span><span>""</span><span>)</span>  
+                  
+        <span># next line </span>
+        <span>print</span> <span>(</span><span>""</span><span>),</span> 
+  
+<span># Driver code </span>
+<span>n</span> <span>=</span> <span>6</span>
+<span>printPattern</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>***********
+ *       *
+  *     *
+   *   *
+    * *
+     *
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div>
+<div>
+<div>In&nbsp;[12]:</div>
+<div>
+    <div>
+<div><pre><span></span><span>10</span><span>#print a hollow diamond pattern </span>
+  
+<span>def</span> <span>printPattern</span><span>(</span><span>n</span><span>)</span> <span>:</span> 
+    <span>k</span> <span>=</span> <span>0</span><span>;</span> 
+  
+    <span># Print upper triangle </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span><span>n</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+  
+        <span># Print spaces </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>1</span><span>,</span><span>n</span><span>-</span><span>i</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>print</span><span>(</span><span>" "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+              
+        <span># Print # </span>
+        <span>while</span> <span>(</span><span>k</span> <span>!=</span> <span>(</span><span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>1</span><span>))</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>k</span> <span>==</span> <span>0</span> <span>or</span> <span>k</span> <span>==</span> <span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>2</span><span>)</span> <span>:</span> 
+                <span>print</span><span>(</span><span>"*"</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+            <span>k</span> <span>=</span> <span>k</span> <span>+</span> <span>1</span>
+              
+        <span>k</span> <span>=</span> <span>0</span>
+  
+        <span># move to next row </span>
+        <span>print</span><span>(</span><span>""</span><span>),</span> 
+      
+    <span>n</span> <span>=</span> <span>n</span> <span>-</span> <span>1</span>
+  
+    <span># Print lower triangle </span>
+    <span>for</span> <span>i</span> <span>in</span> <span>range</span> <span>(</span><span>n</span><span>,</span><span>0</span><span>,</span><span>-</span><span>1</span><span>)</span> <span>:</span> 
+        <span># Print spaces </span>
+        <span>for</span> <span>j</span> <span>in</span> <span>range</span><span>(</span><span>0</span><span>,</span><span>n</span><span>-</span><span>i</span><span>+</span><span>1</span><span>)</span> <span>:</span> 
+            <span>print</span><span>(</span><span>" "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+              
+        <span># Print # </span>
+        <span>k</span> <span>=</span> <span>0</span>
+        <span>while</span> <span>(</span><span>k</span> <span>!=</span> <span>(</span><span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>1</span><span>))</span> <span>:</span> 
+            <span>if</span> <span>(</span><span>k</span> <span>==</span> <span>0</span> <span>or</span> <span>k</span> <span>==</span> <span>2</span> <span>*</span> <span>i</span> <span>-</span> <span>2</span><span>)</span> <span>:</span> 
+                <span>print</span><span>(</span><span>"*"</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+            <span>else</span> <span>:</span> 
+                <span>print</span><span>(</span><span>" "</span><span>,</span><span>end</span><span>=</span><span>""</span><span>)</span> 
+            <span>k</span> <span>=</span> <span>k</span> <span>+</span> <span>1</span>
+          
+        <span>print</span><span>(</span><span>""</span><span>),</span> 
+              
+<span># Driver code </span>
+<span>n</span> <span>=</span> <span>6</span>
+<span>printPattern</span><span>(</span><span>n</span><span>)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div>
+<div>
+
+
+<div>
+
+    <div></div>
+
+
+<div>
+<pre>     *
+    * *
+   *   *
+  *     *
+ *       *
+*         *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+</div>
+
+ 
+
+
+
+</body></html>
